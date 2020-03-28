@@ -1,0 +1,271 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+.container{
+    text-align: center;
+    padding: .8em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-image1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../css/images/Nivi_HP_Main_image.jpg); 
+    background-position: center;
+    background-origin: initial;
+    background-color: white;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: initial;
+    color:white;
+    margin-top: 0;
+    margin-bottom: 4em;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    
+}
+.logo{
+    margin: 2em 3em 0 ;
+    size: 100px;
+    height: 0.5in;
+    
+}
+
+.uche{
+    width: 850px;
+}
+
+ul.top-links li{
+    display: inline-block;
+    color: white;
+    margin-right: 5em;
+    margin-top: 0.5em;
+        
+}
+
+ul.top-links li a{
+    text-decoration: none;
+    color:white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid white
+    
+
+}
+
+.hero-text1{
+    margin-left: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iphone{
+    margin-right: 5em;
+    margin-bottom: 5em;
+    width: 250px;
+    height: 500px;
+}
+
+
+.mission{
+    color: blue;
+    margin-bottom: 4em;
+    size: 3em;
+    line-height: o.5em;
+}
+
+ul,h1{
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+
+}
+.user{
+    background-image: url(../css/images/Nivi_HP_UserEng.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: initial;
+    color: white;
+}
+.engage{
+    font-size: 2.5em;
+    margin-left: 2em;
+    padding-top: 2em;
+}
+.hero-image2{
+    background-image:linear-gradient(rgba(44, 31, 31, 0.5),rgba(0,0,0,0.5)), url(../css/images/Nivi_HP_Partners.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: initial;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.hero-text2{
+    margin-left: 1.8em;
+    padding-top: 3em;
+    font-size: 2.8em;
+}
+.Team{
+    background-image: url(../css/images/Nivi_HP_Team.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    padding-left: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+
+.Ask{
+    padding-left: 10em;
+}
+
+footer{
+    background-color: rgb(51, 69, 78);
+    margin-top: 3em auto;
+    height: 350px;
+    background-position: center;
+    background-size: contain;
+    padding: 2em;
+    color: white;
+    text-align: center;
+}
+
+ul.bottom{
+    margin: 0 auto;
+
+}
+ul.bottom li{
+    display: inline-block;
+    margin: 1em;
+    margin-bottom: 2em;
+    border-right: 1px solid white;
+    padding: 0.5em;
+    height: 1em;
+}
+    
+
+.closing-icon {    
+    color: #9D9D9D;
+    font-size: .7em;
+    padding-top: 1.5em;
+    text-decoration: none;
+    
+}
+
+
+ul.sam{
+    display: flex;
+    
+}
+.sam img{
+    width: 150px;
+}
+
+ul.sam {
+    margin-left:-2em;
+    margin-bottom: 7em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul.sam li:nth-child(1){
+    margin-left: 12em;
+}
+
+ul.sam li:nth-child(5){
+    margin-left: 13em;
+}
+
+
+@media only screen and (max-width: 726px){
+    .logo{
+        background-image: none;
+        display: block;
+        position: fixed;
+        background-color: white;
+        margin-top: -3.5em;
+        width: 20%;
+        padding-right: 27em;
+        padding-left:1.5em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        margin-left: 0;
+        margin-right: 2em;
+        
+    }
+
+    ul.top-links li{
+        display: none;
+    }
+
+    .iphone{
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        padding-bottom: 0;
+        width: 230px;
+        height: 450px;
+    }
+
+    .hero-text1{
+        display: inline-block;
+    }
+
+    .uche{
+        width: 350px;
+    }
+
+    .demo{
+        width: 300px;
+    }
+
+    ul.sam{
+        display: flex
+    }
+
+    ul.sam{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul.sam li:nth-child(1){
+        margin-left: 0;
+    }
+
+    ul.sam li:nth-child(5){
+        margin-left: 0;
+    }
+
+    .hero-text2{
+        margin-left: 1.3em;
+        padding-top: 3em;
+        font-size: 2.8em;
+    }
+    
+    .hero-text1{
+        margin-left: 1em;
+    }
