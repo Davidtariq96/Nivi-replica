@@ -59,9 +59,7 @@ ul.top-links li a{
     padding-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
-    border: 2px solid white
-    
-
+    border: 2px solid white;
 }
 
 .hero-text1{
@@ -269,3 +267,4 @@ ul.sam li:nth-child(5){
     .hero-text1{
         margin-left: 1em;
     }
+}
