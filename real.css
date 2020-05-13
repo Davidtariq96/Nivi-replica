@@ -17,7 +17,7 @@ header{
 
 
 .hero-image1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../css/images/Nivi_HP_Main_image.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(./images/Nivi_HP_Main_image.jpg); 
     background-position: center;
     background-origin: initial;
     background-color: white;
@@ -90,7 +90,7 @@ ul,h1{
 
 }
 .user{
-    background-image: url(../css/images/Nivi_HP_UserEng.jpg);
+    background-image: url(./images/Nivi_HP_UserEng.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ ul,h1{
     padding-top: 2em;
 }
 .hero-image2{
-    background-image:linear-gradient(rgba(44, 31, 31, 0.5),rgba(0,0,0,0.5)), url(../css/images/Nivi_HP_Partners.jpg);
+    background-image:linear-gradient(rgba(44, 31, 31, 0.5),rgba(0,0,0,0.5)), url(./images/Nivi_HP_Partners.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ ul,h1{
     font-size: 2.8em;
 }
 .Team{
-    background-image: url(../css/images/Nivi_HP_Team.jpg);
+    background-image: url(./images/Nivi_HP_Team.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
